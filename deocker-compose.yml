@@ -1,0 +1,10 @@
+---
+version: '3.7'
+
+services:
+  folding-at-home:
+    image: benkorichard/folding-at-home:latest
+    ports:
+      - 7396:7396
+    command:
+      - --user=<username> --team=<team> --gpu=false --smp=true --power=full
