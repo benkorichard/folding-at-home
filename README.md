@@ -2,7 +2,7 @@ Docker container for running [Folding@Home](http://folding.stanford.edu/)
 
 ### Usage
 ```bash
-docker run --rm -d -it -p7396:7396 benkorichard/folding-at-home:latest \
+docker run --rm -d -p7396:7396 benkorichard/folding-at-home:latest \
 --user=<username> --team=<team_id> --gpu=false --smp=true --power=full
 ```
 
