@@ -1,5 +1,4 @@
 FROM debian:stable-slim
-LABEL maintainer="john.k.tims@gmail.com"
 
 ENV FAH_VERSION_MINOR=7.5.1
 ENV FAH_VERSION_MAJOR=7.5
